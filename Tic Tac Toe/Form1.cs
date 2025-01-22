@@ -226,7 +226,7 @@ namespace Tic_Tac_Toe
                 MessageBox.Show("The winner is player 2", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(label5.Text);
                 label5.Text = Convert.ToString(plusone + 1);
-                Enable_False();
+                Enable_False();/////
             }
 
 
